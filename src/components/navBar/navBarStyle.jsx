@@ -3,6 +3,24 @@ import styled from "styled-components";
 
 export const NavWrapper = styled.nav`
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2em;
+  border-bottom: 2px #303030 solid;
+  position: fixed;
+  background: #ffffff;
+  left: 0;
+  right: 0;
+  z-index: 999;
+`;
+
+export const HeaderLogo = styled.img`
+  width: 4em;
+  padding: 0.5em;
+`;
+
+export const NavItems = styled.section`
+  display: flex;
 `;
 
 export const ListDeco = styled.li`
@@ -14,9 +32,9 @@ export const LinkDeco = styled(NavLink)`
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
-  color: #1c1c1c;
+  color: #303030;
   &:hover,
   &.active {
-    border-bottom: #1c1c1c solid 2px;
+    border-bottom: #303030 solid 2px;
   }
 `;

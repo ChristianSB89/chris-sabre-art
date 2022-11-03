@@ -1,10 +1,12 @@
 import React from "react";
-import Header from "./components/header/Header";
+import NavBar from "./components/navBar/NavBar";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <>
-      <Header />
+      <NavBar />
+      <Footer />
     </>
   );
 }
