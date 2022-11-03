@@ -1,7 +1,9 @@
 .social-icons {
   padding: 0.5em;
+  margin: 0.2em;
   color: #f1f1f1;
   scale: 1.2;
+  border-radius: 0.5em;
 }
 
 .social-icons:hover {
