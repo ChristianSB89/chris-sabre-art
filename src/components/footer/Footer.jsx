@@ -18,6 +18,8 @@ import {
   FlexRow,
   FooterStyle,
   IconSection,
+  Mail,
+  Text,
 } from "./FooterStyle";
 
 function footer() {
@@ -26,10 +28,10 @@ function footer() {
       <FlexRow>
         <FlexColumn>
           <BorderPara>© 2022 Chris SaBre</BorderPara>
-          <p>All rights reserved</p>
+          <Text>All rights reserved</Text>
         </FlexColumn>
         <FlexColumn>
-          <BorderPara>Connect with Chris</BorderPara>
+          <BorderPara>Find me here</BorderPara>
           <IconSection>
             <a href="https://www.facebook.com/ChrisSanBrei" target="_blank">
               <FaFacebookSquare className="social-icons" />
@@ -70,7 +72,9 @@ function footer() {
         </FlexColumn>
         <FlexColumn>
           <BorderPara>For comissions:</BorderPara>
-          <a href="mailto:chrismcsabre@gmail.com">chrismcsabre@gmail.com</a>
+          <Mail href="mailto:chrismcsabre@gmail.com">
+            chrismcsabre@gmail.com
+          </Mail>
         </FlexColumn>
       </FlexRow>
     </FooterStyle>
