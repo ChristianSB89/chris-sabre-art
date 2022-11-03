@@ -1,5 +1,9 @@
 .social-icons {
-  padding: 1em;
+  padding: 0.5em;
   color: #1c1c1c;
   scale: 1.2;
+}
+
+.social-icons:hover {
+  background: #999999;
 }

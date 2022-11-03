@@ -12,51 +12,67 @@ import { FaDeviantart } from "react-icons/fa";
 import { SiSociety6 } from "react-icons/si";
 import { FaPatreon } from "react-icons/fa";
 import { FaTwitch } from "react-icons/fa";
-import { FooterStyle, IconSection } from "./FooterStyle";
+import {
+  BorderPara,
+  FlexColumn,
+  FlexRow,
+  FooterStyle,
+  IconSection,
+} from "./FooterStyle";
 
 function footer() {
   return (
     <FooterStyle>
-      <section>
-        <section></section>
-        <section></section>
-        <section></section>
-      </section>
-      <IconSection>
-        <a href="https://www.facebook.com/ChrisSanBrei" target="_blank">
-          <FaFacebookSquare className="social-icons" />
-        </a>
-        <a href="https://twitter.com/ChrisSanBrei" target="_blank">
-          <FaTwitterSquare className="social-icons" />
-        </a>
-        <a
-          href="https://www.youtube.com/channel/UCXEEb1qmm6Pbh0jhdJ-H5dA"
-          target="_blank"
-        >
-          <BsYoutube className="social-icons" />
-        </a>
-        <a href="https://soundcloud.com/chrismcsabre" target="_blank">
-          <FaSoundcloud className="social-icons" />
-        </a>
-        <a href="" target="_blank">
-          <FaTiktok className="social-icons" />
-        </a>
-        <a href="https://www.artstation.com/chrissabre" target="_blank">
-          <FaArtstation className="social-icons" />
-        </a>
-        <a href="https://www.deviantart.com/chrismcsabre" target="_blank">
-          <FaDeviantart className="social-icons" />
-        </a>
-        <a href="https://society6.com/chrismcsabre" target="_blank">
-          <SiSociety6 className="social-icons" />
-        </a>
-        <a href="" target="_blank">
-          <FaPatreon className="social-icons" />
-        </a>
-        <a href="https://www.twitch.tv/chrissanbrei" target="_blank">
-          <FaTwitch className="social-icons" />
-        </a>
-      </IconSection>
+      <FlexRow>
+        <FlexColumn>
+          <BorderPara>© 2022 Chris SaBre</BorderPara>
+          <p>All rights reserved</p>
+        </FlexColumn>
+        <FlexColumn>
+          <BorderPara>Connect with Chris</BorderPara>
+          <IconSection>
+            <a href="https://www.facebook.com/ChrisSanBrei" target="_blank">
+              <FaFacebookSquare className="social-icons" />
+            </a>
+            <a href="https://twitter.com/ChrisSanBrei" target="_blank">
+              <FaTwitterSquare className="social-icons" />
+            </a>
+            <a
+              href="https://www.youtube.com/channel/UCXEEb1qmm6Pbh0jhdJ-H5dA"
+              target="_blank"
+            >
+              <BsYoutube className="social-icons" />
+            </a>
+            <a href="https://soundcloud.com/chrismcsabre" target="_blank">
+              <FaSoundcloud className="social-icons" />
+            </a>
+            <a href="" target="_blank">
+              <FaTiktok className="social-icons" />
+            </a>
+          </IconSection>
+          <IconSection>
+            <a href="https://www.artstation.com/chrissabre" target="_blank">
+              <FaArtstation className="social-icons" />
+            </a>
+            <a href="https://www.deviantart.com/chrismcsabre" target="_blank">
+              <FaDeviantart className="social-icons" />
+            </a>
+            <a href="https://society6.com/chrismcsabre" target="_blank">
+              <SiSociety6 className="social-icons" />
+            </a>
+            <a href="" target="_blank">
+              <FaPatreon className="social-icons" />
+            </a>
+            <a href="https://www.twitch.tv/chrissanbrei" target="_blank">
+              <FaTwitch className="social-icons" />
+            </a>
+          </IconSection>
+        </FlexColumn>
+        <FlexColumn>
+          <BorderPara>For comissions:</BorderPara>
+          <a href="mailto:chrismcsabre@gmail.com">chrismcsabre@gmail.com</a>
+        </FlexColumn>
+      </FlexRow>
     </FooterStyle>
   );
 }
