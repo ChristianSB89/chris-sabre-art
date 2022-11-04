@@ -25,7 +25,7 @@ function Home() {
       <HeroImg src={Studio} />
       <FloatingTxt>
         <WhiteTxt>
-          "My illustrations doesn't have any deep meaning. I'm not that clever."
+          "My artwork doesn't have any deep meaning. I'm not that clever."
         </WhiteTxt>
       </FloatingTxt>
       <FlexRow>
