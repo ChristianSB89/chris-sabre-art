@@ -1,6 +1,5 @@
 import React from "react";
 
-import Studio from "../../assets/img/studio.jpg";
 import Delivery from "../../assets/traditionalArt/delivery.png";
 import SkiPropeller from "../../assets/traditionalArt/ski propeller.png";
 import Snowpiercer from "../../assets/traditionalArt/snowpiercer.png";
@@ -11,6 +10,7 @@ import {
   FloatingTxt,
   HeadlineContainer,
   HeroImg,
+  HeroSection,
   Illustrations,
   ImageSection,
   InfoPara,
@@ -22,7 +22,7 @@ import {
 function Home() {
   return (
     <Body>
-      <HeroImg src={Studio} />
+      <HeroSection></HeroSection>
       <FloatingTxt>
         <WhiteTxt>
           "My artwork doesn't have any deep meaning. I'm not that clever."

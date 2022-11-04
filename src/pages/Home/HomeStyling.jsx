@@ -1,14 +1,19 @@
 import styled from "styled-components";
 
+import Studio from "../../assets/img/studio.jpg";
+
 export const Body = styled.section`
   background: #1c1c1c;
 `;
 
-export const HeroImg = styled.img`
-  height: 35em;
+export const HeroSection = styled.section`
+  background-image: url(${Studio});
   width: 100%;
-  object-fit: cover;
-  border-bottom: 2px #1c1c1c solid;
+  min-height: 40em;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 `;
 
 export const FloatingTxt = styled.section`
@@ -17,7 +22,7 @@ export const FloatingTxt = styled.section`
   justify-content: center;
   background: #1c1c1c;
   position: absolute;
-  top: 30%;
+  top: 35%;
   border-top: 2px #f1f1f1 solid;
   border-bottom: 2px #f1f1f1 solid;
 `;
