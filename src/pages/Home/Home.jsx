@@ -1,4 +1,10 @@
 import React from "react";
+
+import Studio from "../../assets/img/studio.jpg";
+import Delivery from "../../assets/traditionalArt/delivery.png";
+import SkiPropeller from "../../assets/traditionalArt/ski propeller.png";
+import Snowpiercer from "../../assets/traditionalArt/snowpiercer.png";
+
 import {
   FlexRow,
   FloatingTxt,
@@ -10,13 +16,9 @@ import {
   MiniHeadline,
   MiniInfo,
   WhiteTxt,
-} from "./LandingPageStyle";
-import Studio from "../../assets/img/studio.jpg";
-import Delivery from "../../assets/traditionalArt/delivery.png";
-import SkiPropeller from "../../assets/traditionalArt/ski propeller.png";
-import Snowpiercer from "../../assets/traditionalArt/snowpiercer.png";
+} from "./HomeStyling";
 
-function LandingPage() {
+function Home() {
   return (
     <section>
       <HeroImg src={Studio} />
@@ -79,4 +81,4 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default Home;

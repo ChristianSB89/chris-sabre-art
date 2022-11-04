@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./icons.css";
-
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
@@ -12,6 +10,9 @@ import { FaDeviantart } from "react-icons/fa";
 import { SiSociety6 } from "react-icons/si";
 import { FaPatreon } from "react-icons/fa";
 import { FaTwitch } from "react-icons/fa";
+
+import "./icons.css";
+
 import {
   BorderPara,
   FlexColumn,

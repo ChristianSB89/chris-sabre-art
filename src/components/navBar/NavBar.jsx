@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import LandingPage from "../../pages/LandingPage/LandingPage";
+import Home from "../../pages/Home/Home";
 import About from "../../pages/About/About";
 import Gallery from "../../pages/Gallery/Gallery";
 import Services from "../../pages/Services/Services";
@@ -49,7 +49,7 @@ function NavBar() {
         </NavItems>
       </NavWrapper>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="*" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/services" element={<Services />} />
