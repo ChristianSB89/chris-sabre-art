@@ -6,6 +6,7 @@ import SkiPropeller from "../../assets/traditionalArt/ski propeller.png";
 import Snowpiercer from "../../assets/traditionalArt/snowpiercer.png";
 
 import {
+  Body,
   FlexRow,
   FloatingTxt,
   HeadlineContainer,
@@ -20,7 +21,7 @@ import {
 
 function Home() {
   return (
-    <section>
+    <Body>
       <HeroImg src={Studio} />
       <FloatingTxt>
         <WhiteTxt>
@@ -77,7 +78,7 @@ function Home() {
           alt="Man holding a plower on his way down from the roof"
         />
       </ImageSection>
-    </section>
+    </Body>
   );
 }
 

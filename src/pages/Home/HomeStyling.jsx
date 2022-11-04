@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+export const Body = styled.section`
+  background: #1c1c1c;
+`;
+
 export const HeroImg = styled.img`
   height: 35em;
   width: 100%;
@@ -26,6 +30,7 @@ export const FlexRow = styled.section`
   display: flex;
   justify-content: space-around;
   background: #1c1c1c;
+  padding: 2em 0;
 `;
 
 export const MiniInfo = styled.section`
@@ -52,7 +57,8 @@ export const InfoPara = styled.p`
 export const ImageSection = styled.section`
   display: flex;
   justify-content: space-evenly;
-  padding-top: 2em;
+  padding: 4em 0;
+  background: #fff;
 `;
 
 export const Illustrations = styled.img`

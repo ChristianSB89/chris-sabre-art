@@ -14,6 +14,15 @@ export const NavWrapper = styled.nav`
   z-index: 999;
 `;
 
+export const LogoTxt = styled.section`
+  display: flex;
+  align-items: center;
+`;
+
+export const Headline = styled.h1`
+  color: #0f82bd;
+`;
+
 export const HeaderLogo = styled.img`
   width: 4em;
   padding: 0.5em;

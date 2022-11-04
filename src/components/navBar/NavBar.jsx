@@ -8,7 +8,7 @@ import Services from "../../pages/Services/Services";
 import Shop from "../../pages/Shop/Shop";
 import Media from "../../pages/Media/Media";
 
-import Logo from "../../assets/img/logo.png";
+import Signature from "../../assets/img/signature.png";
 
 import {
   LinkDeco,
@@ -16,15 +16,17 @@ import {
   NavItems,
   NavWrapper,
   HeaderLogo,
+  LogoTxt,
+  Headline,
 } from "./navBarStyle";
 
 function NavBar() {
   return (
     <Router>
       <NavWrapper>
-        <section>
-          <HeaderLogo src={Logo} alt="CSB logo" />
-        </section>
+        <LogoTxt>
+          <HeaderLogo src={Signature} alt="CSB logo" />
+        </LogoTxt>
         <NavItems>
           <ListDeco>
             <LinkDeco exact to="/" end>
