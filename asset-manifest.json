@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chris-sabre-art/static/css/main.8da96ce7.css",
-    "main.js": "/chris-sabre-art/static/js/main.d255393a.js",
+    "main.js": "/chris-sabre-art/static/js/main.a0dd09cb.js",
     "static/media/delivery.png": "/chris-sabre-art/static/media/delivery.a1f54dbcb9bdbeff0b9b.png",
     "static/media/snowpiercer.png": "/chris-sabre-art/static/media/snowpiercer.04500fadb1ca3eb50e8f.png",
     "static/media/ski propeller.png": "/chris-sabre-art/static/media/ski propeller.7db6bffe13c9df12cb67.png",
@@ -11,10 +11,10 @@
     "static/media/signature.png": "/chris-sabre-art/static/media/signature.fb9561e789b1dfffe699.png",
     "index.html": "/chris-sabre-art/index.html",
     "main.8da96ce7.css.map": "/chris-sabre-art/static/css/main.8da96ce7.css.map",
-    "main.d255393a.js.map": "/chris-sabre-art/static/js/main.d255393a.js.map"
+    "main.a0dd09cb.js.map": "/chris-sabre-art/static/js/main.a0dd09cb.js.map"
   },
   "entrypoints": [
     "static/css/main.8da96ce7.css",
-    "static/js/main.d255393a.js"
+    "static/js/main.a0dd09cb.js"
   ]
 }
