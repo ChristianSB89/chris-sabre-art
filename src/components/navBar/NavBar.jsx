@@ -17,7 +17,6 @@ import {
   NavWrapper,
   HeaderLogo,
   LogoTxt,
-  Headline,
 } from "./navBarStyle";
 
 function NavBar() {
