@@ -1,20 +1,29 @@
 {
   "files": {
     "main.css": "/chris-sabre-art/static/css/main.8da96ce7.css",
-    "main.js": "/chris-sabre-art/static/js/main.a0dd09cb.js",
+    "main.js": "/chris-sabre-art/static/js/main.217eb463.js",
     "static/media/delivery.png": "/chris-sabre-art/static/media/delivery.a1f54dbcb9bdbeff0b9b.png",
     "static/media/snowpiercer.png": "/chris-sabre-art/static/media/snowpiercer.04500fadb1ca3eb50e8f.png",
     "static/media/ski propeller.png": "/chris-sabre-art/static/media/ski propeller.7db6bffe13c9df12cb67.png",
     "static/media/sundre-cropped.jpg": "/chris-sabre-art/static/media/sundre-cropped.670b54baaa1af882506e.jpg",
+    "static/media/pattern.jpg": "/chris-sabre-art/static/media/pattern.699d3aba78aaa044bc48.jpg",
+    "static/media/comissions.jpg": "/chris-sabre-art/static/media/comissions.b62dceaa7d1c7cc97c9f.jpg",
+    "static/media/traditional-art.jpg": "/chris-sabre-art/static/media/traditional-art.2b33fe44fc4ad3c42198.jpg",
+    "static/media/board-art.jpg": "/chris-sabre-art/static/media/board-art.60840b045077275f05c4.jpg",
+    "static/media/music-art.jpg": "/chris-sabre-art/static/media/music-art.c50000fe0c048e907b68.jpg",
+    "static/media/painting.jpg": "/chris-sabre-art/static/media/painting.f470129d193aa69181b5.jpg",
     "static/media/studio.jpg": "/chris-sabre-art/static/media/studio.b8f89e4bafbd05254c14.jpg",
+    "static/media/sketch.jpg": "/chris-sabre-art/static/media/sketch.418eb49cd3c05ca2fbfc.jpg",
     "static/media/headshot.png": "/chris-sabre-art/static/media/headshot.78e58aa8a3d50e39812b.png",
+    "static/media/digital-art.jpg": "/chris-sabre-art/static/media/digital-art.54e650a19e306afe37d1.jpg",
     "static/media/signature.png": "/chris-sabre-art/static/media/signature.fb9561e789b1dfffe699.png",
+    "static/media/splatter.png": "/chris-sabre-art/static/media/splatter.c9201104d875ca50fe34.png",
     "index.html": "/chris-sabre-art/index.html",
     "main.8da96ce7.css.map": "/chris-sabre-art/static/css/main.8da96ce7.css.map",
-    "main.a0dd09cb.js.map": "/chris-sabre-art/static/js/main.a0dd09cb.js.map"
+    "main.217eb463.js.map": "/chris-sabre-art/static/js/main.217eb463.js.map"
   },
   "entrypoints": [
     "static/css/main.8da96ce7.css",
-    "static/js/main.a0dd09cb.js"
+    "static/js/main.217eb463.js"
   ]
 }
