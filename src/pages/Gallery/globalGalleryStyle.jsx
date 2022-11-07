@@ -3,10 +3,11 @@ import styled from "styled-components";
 import Splatter from "../../assets/img/splatter.png";
 
 export const Body = styled.section`
-  position: absolute;
+  margin-top: 30em;
   background: #f1f1f1;
   width: 100%;
   height: 50%;
+  border-top: 2px #1f1f1f solid;
   border-bottom: 2px #1f1f1f solid;
 `;
 
@@ -14,7 +15,6 @@ export const TitleBanner = styled.section`
   background: #1f1f1f;
   border-top: 2px #ffffff solid;
   border-bottom: 2px #ffffff solid;
-  margin-top: 25em;
 `;
 
 export const FlexRow = styled.section`

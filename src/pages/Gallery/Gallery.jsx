@@ -2,20 +2,15 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 
 import {
-  CategoryFlex,
-  CategoryText,
-  Description,
-  FlexRow,
-  GalleryHeader,
-  GalleryIntro,
-  HeaderTxt,
-  LinkFix,
-  NavBar,
   PageBody,
-  SectionImg,
+  NavBar,
+  LinkFix,
+  GalleryHeader,
   SiteTitle,
-  TxtStroke,
-} from "./galleryStyle";
+  Description,
+  CategoryFlex,
+  GalleryIntro,
+} from "./galleryMainPageStyle";
 
 function Gallery() {
   return (
@@ -34,15 +29,6 @@ function Gallery() {
       <GalleryHeader>
         <SiteTitle>Gallery</SiteTitle>
       </GalleryHeader>
-      <Description>
-        <CategoryFlex>
-          <GalleryIntro>
-            As you will see in this gallery, I am always exploring new
-            techniques and styles. Below you can read a little bit about my
-            thoughts and experience for each category.
-          </GalleryIntro>
-        </CategoryFlex>
-      </Description>
     </PageBody>
   );
 }

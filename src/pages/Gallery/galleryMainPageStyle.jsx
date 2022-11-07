@@ -51,22 +51,6 @@ export const GalleryHeader = styled.section`
   align-items: center;
 `;
 
-export const TxtStroke = styled.section`
-  width: 40em;
-  overflow: visible;
-  background-image: url(${Splatter});
-  background-size: cover;
-  background-position: center;
-  resize: both;
-`;
-
-export const HeaderTxt = styled.h4`
-  color: #f1f1f1;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 1em 3em;
-`;
-
 export const SiteTitle = styled.h2`
   color: #f1f1f1;
   background: #1f1f1f;
@@ -93,22 +77,4 @@ export const GalleryIntro = styled.p`
   width: 33em;
   text-align: center;
   padding-bottom: 3em;
-`;
-
-export const CategoryText = styled.p`
-  width: 50em;
-  padding: 0.5em 1em;
-`;
-
-export const SectionImg = styled.img`
-  width: 10em;
-  height: 20em;
-  object-fit: cover;
-  padding-right: 1em;
-`;
-
-export const FlexRow = styled.section`
-  display: flex;
-  justify-content: center;
-  padding: 0.5em 0;
 `;
