@@ -9,7 +9,6 @@ import {
   FlexRow,
   FloatingTxt,
   HeadlineContainer,
-  HeroImg,
   HeroSection,
   Illustrations,
   ImageSection,

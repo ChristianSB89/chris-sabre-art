@@ -19,6 +19,17 @@ export const Header = styled.section`
   border-bottom: 2px #1f1f1f solid;
 `;
 
+export const FloatingAbout = styled.section`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #1c1c1c;
+  position: absolute;
+  top: 30%;
+  border-top: 2px #f1f1f1 solid;
+  border-bottom: 2px #f1f1f1 solid;
+`;
+
 export const BioSection = styled.section`
   display: flex;
   align-items: flex-start;

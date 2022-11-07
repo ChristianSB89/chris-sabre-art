@@ -11,6 +11,7 @@ import {
   WideTextSection,
   AboutImages,
   Signed,
+  FloatingAbout,
 } from "./AboutStyle";
 
 import { FloatingTxt, WhiteTxt } from "../Home/HomeStyling";
@@ -19,9 +20,9 @@ function About() {
   return (
     <PageWrapper>
       <Header>
-        <FloatingTxt>
+        <FloatingAbout>
           <WhiteTxt>A little bit about myself</WhiteTxt>
-        </FloatingTxt>
+        </FloatingAbout>
       </Header>
       <BioSection>
         <TextSection>
