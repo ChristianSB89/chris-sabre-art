@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { Link } from "react-router-dom";
+
 import Painting from "../../assets/img/painting.jpg";
 import Splatter from "../../assets/img/splatter.png";
 
@@ -9,6 +11,30 @@ export const PageBody = styled.section`
 
 export const NavBar = styled.nav`
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1em 2em;
+  border-bottom: 2px #303030 solid;
+  border-left: 2px #303030 solid;
+  border-right: 2px #303030 solid;
+  position: fixed;
+  right: 2%;
+  top: 6%;
+  background: #ffffff;
+  border-radius: 2em;
+  z-index: 90;
+`;
+
+export const LinkFix = styled(Link)`
+  padding: 0 1em;
+  text-transform: uppercase;
+  font-size: small;
+  text-decoration: none;
+  color: #1f1f1f;
+  &:hover,
+  &.active {
+    text-decoration: underline;
+  }
 `;
 
 export const GalleryHeader = styled.section`

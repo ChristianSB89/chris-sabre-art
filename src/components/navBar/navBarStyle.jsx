@@ -11,7 +11,7 @@ export const NavWrapper = styled.nav`
   background: #ffffff;
   left: 0;
   right: 0;
-  z-index: 999;
+  z-index: 80;
 `;
 
 export const LogoTxt = styled.section`
