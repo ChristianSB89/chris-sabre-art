@@ -4,6 +4,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../../pages/Home/Home";
 import About from "../../pages/About/About";
 import Gallery from "../../pages/Gallery/Gallery";
+import Sketches from "../../pages/Gallery/Sketches/Sketches";
+import DigitalArt from "../../pages/Gallery/DigitalArt/DigitalArt";
+import TradArt from "../../pages/Gallery/TraditionalArt/TraditionalArt";
+import Patterns from "../../pages/Gallery/Patterns/Patterns";
+import MusicArt from "../../pages/Gallery/MusicArt/MusicArt";
+import BoardDesigns from "../../pages/Gallery/BoardDesigns/BoardDesigns";
+import Comissions from "../../pages/Gallery/Comissions/Comissions";
 import Services from "../../pages/Services/Services";
 import Shop from "../../pages/Shop/Shop";
 import Media from "../../pages/Media/Media";
@@ -52,7 +59,15 @@ function NavBar() {
       <Routes>
         <Route path="*" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/gallery" element={<Gallery />}>
+          <Route path="/gallery/sketches" element={<Sketches />} />
+          <Route path="/gallery/digital" element={<DigitalArt />} />
+          <Route path="/gallery/traditional" element={<TradArt />} />
+          <Route path="/gallery/patterns" element={<Patterns />} />
+          <Route path="/gallery/music" element={<MusicArt />} />
+          <Route path="/gallery/boards" element={<BoardDesigns />} />
+          <Route path="/gallery/comissions" element={<Comissions />} />
+        </Route>
         <Route path="/services" element={<Services />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/media" element={<Media />} />

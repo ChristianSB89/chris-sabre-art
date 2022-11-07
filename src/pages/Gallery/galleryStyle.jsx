@@ -7,28 +7,8 @@ export const PageBody = styled.section`
   padding-top: 5em;
 `;
 
-export const NavBar = styled.nav``;
-
-export const ListFlex = styled.ul`
+export const NavBar = styled.nav`
   display: flex;
-  justify-content: flex-end;
-  list-style: none;
-`;
-
-export const ListEl = styled.li`
-  padding: 0.5em 1em;
-`;
-
-export const Links = styled.a`
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: small;
-  color: #1f1f1f;
-  &:hover,
-  &.active {
-    text-decoration: underline;
-  }
 `;
 
 export const GalleryHeader = styled.section`
@@ -46,7 +26,7 @@ export const GalleryHeader = styled.section`
 `;
 
 export const TxtStroke = styled.section`
-  width: 30%;
+  width: 40em;
   overflow: visible;
   background-image: url(${Splatter});
   background-size: cover;
@@ -90,6 +70,19 @@ export const GalleryIntro = styled.p`
 `;
 
 export const CategoryText = styled.p`
-  width: 66em;
-  padding-top: 0.5em;
+  width: 50em;
+  padding: 0.5em 1em;
+`;
+
+export const SectionImg = styled.img`
+  width: 10em;
+  height: 20em;
+  object-fit: cover;
+  padding-right: 1em;
+`;
+
+export const FlexRow = styled.section`
+  display: flex;
+  justify-content: center;
+  padding: 0.5em 0;
 `;
