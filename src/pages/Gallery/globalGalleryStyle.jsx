@@ -73,11 +73,13 @@ export const CategoryText = styled.p`
 //GALLERY STYLES//
 //--------------//
 
-export const GalleryGrid = styled.section`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+export const GalleryFlex = styled.section`
+  display: flex;
+  justify-content: center;
 `;
 
 export const GalleryImg = styled.img`
-  width: 30em;
+  width: 25em;
+  object-fit: cover;
+  padding: 0.2em;
 `;

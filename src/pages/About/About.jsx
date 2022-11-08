@@ -14,7 +14,7 @@ import {
   FloatingAbout,
 } from "./AboutStyle";
 
-import { FloatingTxt, WhiteTxt } from "../Home/HomeStyling";
+import { WhiteTxt } from "../Home/HomeStyling";
 
 function About() {
   return (
