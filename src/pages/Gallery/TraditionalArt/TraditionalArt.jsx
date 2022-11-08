@@ -9,9 +9,7 @@ import {
   CategoryFlex,
   CategoryText,
   FlexRow,
-  HeaderTxt,
   SectionImg,
-  TxtStroke,
 } from "../globalGalleryStyle";
 
 function TraditionalArt() {
@@ -20,18 +18,14 @@ function TraditionalArt() {
       <TitleBanner>
         <GalleryTitle>Traditional Art</GalleryTitle>
       </TitleBanner>
+      <SectionImg src={TradArt} alt="An empty easel" />
       <FlexRow>
-        <SectionImg src={TradArt} alt="An empty easel" />
         <CategoryFlex>
-          <TxtStroke>
-            <HeaderTxt>Traditional Art</HeaderTxt>
-          </TxtStroke>
           <CategoryText>
             What I've been doing the longest. But hey, it's the most accessible
             form of art! I remember getting excited for getting new colored
             pencils and other art supplies when I was younger. (Still getting
-            excited, though) I enjoyed art so much that I studied art in High
-            School.
+            excited, though)
           </CategoryText>
           <CategoryText>
             Here you can find works done with acrylics, pencil, markers and ink.
@@ -40,7 +34,6 @@ function TraditionalArt() {
             the smell of paint and the feel of the surface you work on.
           </CategoryText>
         </CategoryFlex>
-        <SectionImg src={TradArt} alt="An empty easel" />
       </FlexRow>
     </Body>
   );

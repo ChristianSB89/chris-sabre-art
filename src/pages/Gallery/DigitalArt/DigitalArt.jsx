@@ -9,9 +9,7 @@ import {
   CategoryFlex,
   CategoryText,
   FlexRow,
-  HeaderTxt,
   SectionImg,
-  TxtStroke,
 } from "../globalGalleryStyle";
 
 function DigitalArt() {
@@ -20,12 +18,9 @@ function DigitalArt() {
       <TitleBanner>
         <GalleryTitle>Digital Art</GalleryTitle>
       </TitleBanner>
+      <SectionImg src={DigiArt} alt="An half-open laptop" />
       <FlexRow>
-        <SectionImg src={DigiArt} alt="An half-open laptop" />
         <CategoryFlex>
-          <TxtStroke>
-            <HeaderTxt>Digital Art</HeaderTxt>
-          </TxtStroke>
           <CategoryText>
             I got my first drawing tablet back in 2009. I don't remember the
             brand, but I do remember that it didn't have a display. A couple of
@@ -50,7 +45,6 @@ function DigitalArt() {
             they deserve a shoutout!)
           </CategoryText>
         </CategoryFlex>
-        <SectionImg src={DigiArt} alt="An half-open laptop" />
       </FlexRow>
     </Body>
   );

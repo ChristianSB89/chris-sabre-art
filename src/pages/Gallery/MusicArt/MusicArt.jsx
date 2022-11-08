@@ -9,9 +9,7 @@ import {
   CategoryFlex,
   CategoryText,
   FlexRow,
-  HeaderTxt,
   SectionImg,
-  TxtStroke,
 } from "../globalGalleryStyle";
 
 function MusicArt() {
@@ -20,12 +18,9 @@ function MusicArt() {
       <TitleBanner>
         <GalleryTitle>Music Art</GalleryTitle>
       </TitleBanner>
+      <SectionImg src={MusicImg} alt="A collection of vinyls" />
       <FlexRow>
-        <SectionImg src={MusicImg} alt="A collection of vinyls" />
         <CategoryFlex>
-          <TxtStroke>
-            <HeaderTxt>Music Art</HeaderTxt>
-          </TxtStroke>
           <CategoryText>
             My family is quite musical. My parents play the stereo, my two
             younger siblings play the guitar and I play drums and make music on
@@ -39,7 +34,6 @@ function MusicArt() {
             designs as well.
           </CategoryText>
         </CategoryFlex>
-        <SectionImg src={MusicImg} alt="A collection of vinyls" />
       </FlexRow>
     </Body>
   );

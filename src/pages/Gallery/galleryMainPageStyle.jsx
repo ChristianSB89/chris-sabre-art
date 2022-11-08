@@ -12,7 +12,7 @@ export const GalleryHeader = styled.section`
   border-top: 2px #1f1f1f solid;
   border-bottom: 2px #1f1f1f solid;
   width: 100%;
-  min-height: 30em;
+  min-height: 18.65em;
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -26,15 +26,15 @@ export const SiteTitle = styled.h2`
   background: #1f1f1f;
   width: 100%;
   text-align: center;
-  font-size: 300%;
+  font-size: 200%;
   border-top: #f1f1f1 2px solid;
   border-bottom: #f1f1f1 2px solid;
   padding: 0.5em 0;
 `;
 
 export const NavBar = styled.nav`
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  justify-content: center;
   gap: 1em;
   padding: 1em 2em;
   background: #ffffff;
@@ -45,7 +45,7 @@ export const LinkFix = styled(Link)`
   text-decoration: none;
   color: #f1f1f1;
   background: #1f1f1f;
-  padding: 2em 1em 1em 1em;
+  padding: 1em;
   border-radius: 2em;
   text-align: center;
   font-weight: 800;
@@ -65,8 +65,8 @@ export const LinkFix = styled(Link)`
 `;
 
 export const PreviewImg = styled.img`
-  width: 30em;
-  height: 20em;
+  width: 10em;
+  height: 10em;
   object-fit: cover;
   border-left: 2px #f1f1f1 solid;
   border-bottom: 4px #f1f1f1 solid;

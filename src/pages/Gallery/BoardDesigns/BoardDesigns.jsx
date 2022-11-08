@@ -9,9 +9,7 @@ import {
   CategoryFlex,
   CategoryText,
   FlexRow,
-  HeaderTxt,
   SectionImg,
-  TxtStroke,
 } from "../globalGalleryStyle";
 
 function BoardDesigns() {
@@ -20,12 +18,9 @@ function BoardDesigns() {
       <TitleBanner>
         <GalleryTitle>Board Designs</GalleryTitle>
       </TitleBanner>
+      <SectionImg src={BoardImg} alt="A collection of vinyls" />
       <FlexRow>
-        <SectionImg src={BoardImg} alt="A collection of vinyls" />
         <CategoryFlex>
-          <TxtStroke>
-            <HeaderTxt>Board Designs</HeaderTxt>
-          </TxtStroke>
           <CategoryText>
             Being a gamer for a long time, I've played my share of Tony Hawk
             games. But one game in particular made me interested in board
@@ -38,7 +33,6 @@ function BoardDesigns() {
             boards.
           </CategoryText>
         </CategoryFlex>
-        <SectionImg src={BoardImg} alt="A collection of vinyls" />
       </FlexRow>
     </Body>
   );

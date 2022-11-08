@@ -1,12 +1,12 @@
 import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 import Splatter from "../../assets/img/splatter.png";
 
 export const Body = styled.section`
-  margin-top: 30em;
   background: #f1f1f1;
   width: 100%;
-  height: 50%;
+  height: fit-content;
   border-top: 2px #1f1f1f solid;
   border-bottom: 2px #1f1f1f solid;
 `;
@@ -44,10 +44,9 @@ export const TxtStroke = styled.section`
 //------------//
 
 export const SectionImg = styled.img`
-  width: 10em;
+  width: 100%;
   height: 20em;
   object-fit: cover;
-  padding-right: 1em;
 `;
 
 //-----------//
@@ -70,5 +69,5 @@ export const HeaderTxt = styled.h4`
 
 export const CategoryText = styled.p`
   width: 50em;
-  padding: 0.5em 1em;
+  padding: 0.2em 1em;
 `;

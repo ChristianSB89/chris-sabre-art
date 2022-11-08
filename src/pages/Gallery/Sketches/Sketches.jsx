@@ -9,9 +9,7 @@ import {
   CategoryFlex,
   CategoryText,
   FlexRow,
-  HeaderTxt,
   SectionImg,
-  TxtStroke,
 } from "../globalGalleryStyle";
 
 function Sketches() {
@@ -20,12 +18,9 @@ function Sketches() {
       <TitleBanner>
         <GalleryTitle>Sketches</GalleryTitle>
       </TitleBanner>
+      <SectionImg src={Sketching} alt="Drawing supplies and paper" />
       <FlexRow>
-        <SectionImg src={Sketching} alt="Drawing supplies and paper" />
         <CategoryFlex>
-          <TxtStroke>
-            <HeaderTxt>Sketches</HeaderTxt>
-          </TxtStroke>
           <CategoryText>
             Sketching is quite a relaxing activity. I usually do sketching while
             I'm doing other things. Back in the day when I was a student I was
@@ -34,13 +29,19 @@ function Sketches() {
             drawing in class helps you remember things being taught.
           </CategoryText>
           <CategoryText>
+            One thing about sketching that I feel a lot of people get wrong, me
+            included back in the day, is that you can only sketch with a pencil.
+            You can sketch with any medium. That's how you learn how to blend
+            colors, improve workflow and in general develop a better
+            understanding of the chosen medium.
+          </CategoryText>
+          <CategoryText>
             I've always loved looking at sketches from different artists, so I
             decided to share my sketches with you. But truth be told, sketching
             are just an artists way of brainstorming so don't expect too much
             fancyness.
           </CategoryText>
         </CategoryFlex>
-        <SectionImg src={Sketching} alt="Drawing supplies and paper" />
       </FlexRow>
     </Body>
   );
