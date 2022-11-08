@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { NavLink } from "react-router-dom";
 
 import Splatter from "../../assets/img/splatter.png";
 
@@ -7,14 +6,12 @@ export const Body = styled.section`
   background: #f1f1f1;
   width: 100%;
   height: fit-content;
-  border-top: 2px #1f1f1f solid;
   border-bottom: 2px #1f1f1f solid;
 `;
 
 export const TitleBanner = styled.section`
   background: #1f1f1f;
-  border-top: 2px #ffffff solid;
-  border-bottom: 2px #ffffff solid;
+  padding: 1em 0;
 `;
 
 export const FlexRow = styled.section`
@@ -70,4 +67,17 @@ export const HeaderTxt = styled.h4`
 export const CategoryText = styled.p`
   width: 50em;
   padding: 0.2em 1em;
+`;
+
+//--------------//
+//GALLERY STYLES//
+//--------------//
+
+export const GalleryGrid = styled.section`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+`;
+
+export const GalleryImg = styled.img`
+  width: 30em;
 `;

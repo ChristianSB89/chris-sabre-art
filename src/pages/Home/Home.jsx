@@ -69,12 +69,12 @@ function Home() {
       <ImageSection>
         <Illustrations src={Delivery} alt="Man on modified motorcycle" />
         <Illustrations
-          src={SkiPropeller}
-          alt="Man skiing with a backpack with a propeller"
-        />
-        <Illustrations
           src={Snowpiercer}
           alt="Man holding a plower on his way down from the roof"
+        />
+        <Illustrations
+          src={SkiPropeller}
+          alt="Man skiing with a backpack with a propeller"
         />
       </ImageSection>
     </Body>

@@ -33,7 +33,8 @@ function Sketches() {
             included back in the day, is that you can only sketch with a pencil.
             You can sketch with any medium. That's how you learn how to blend
             colors, improve workflow and in general develop a better
-            understanding of the chosen medium.
+            understanding of the chosen medium. The reason I say that is because
+            I have sketches done in various mediums here.
           </CategoryText>
           <CategoryText>
             I've always loved looking at sketches from different artists, so I

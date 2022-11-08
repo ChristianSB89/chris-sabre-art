@@ -9,8 +9,6 @@ export const PageBody = styled.section`
 
 export const GalleryHeader = styled.section`
   background-image: url(${Painting});
-  border-top: 2px #1f1f1f solid;
-  border-bottom: 2px #1f1f1f solid;
   width: 100%;
   min-height: 18.65em;
   background-attachment: fixed;
