@@ -1,10 +1,19 @@
 {
   "files": {
     "main.css": "/chris-sabre-art/static/css/main.8da96ce7.css",
-    "main.js": "/chris-sabre-art/static/js/main.c5b5246f.js",
+    "main.js": "/chris-sabre-art/static/js/main.887543bd.js",
+    "static/media/bbq.png": "/chris-sabre-art/static/media/bbq.696ef5038ddf9f3fb46b.png",
+    "static/media/hunting moose.png": "/chris-sabre-art/static/media/hunting moose.e4168509ccfc587a11b2.png",
     "static/media/delivery.png": "/chris-sabre-art/static/media/delivery.a1f54dbcb9bdbeff0b9b.png",
+    "static/media/yule tank.png": "/chris-sabre-art/static/media/yule tank.75f5a3073147039e556a.png",
     "static/media/snowpiercer.png": "/chris-sabre-art/static/media/snowpiercer.04500fadb1ca3eb50e8f.png",
+    "static/media/chilling in the river.png": "/chris-sabre-art/static/media/chilling in the river.defe2106e907c9b4caf5.png",
+    "static/media/trimmed tractor.png": "/chris-sabre-art/static/media/trimmed tractor.dc439ef77070b0bfe8f7.png",
+    "static/media/studded tires.png": "/chris-sabre-art/static/media/studded tires.d61cc15d1e12d2440df5.png",
     "static/media/ski propeller.png": "/chris-sabre-art/static/media/ski propeller.7db6bffe13c9df12cb67.png",
+    "static/media/spring is coming.png": "/chris-sabre-art/static/media/spring is coming.164a5d733c73e86bc0cd.png",
+    "static/media/berries.png": "/chris-sabre-art/static/media/berries.394de018544d05d2136e.png",
+    "static/media/skijumper.png": "/chris-sabre-art/static/media/skijumper.ac8e1fa92565414f316c.png",
     "static/media/sundre-cropped.jpg": "/chris-sabre-art/static/media/sundre-cropped.670b54baaa1af882506e.jpg",
     "static/media/comissions.jpg": "/chris-sabre-art/static/media/comissions.b62dceaa7d1c7cc97c9f.jpg",
     "static/media/traditional-art.jpg": "/chris-sabre-art/static/media/traditional-art.2b33fe44fc4ad3c42198.jpg",
@@ -19,10 +28,10 @@
     "static/media/splatter.png": "/chris-sabre-art/static/media/splatter.c9201104d875ca50fe34.png",
     "index.html": "/chris-sabre-art/index.html",
     "main.8da96ce7.css.map": "/chris-sabre-art/static/css/main.8da96ce7.css.map",
-    "main.c5b5246f.js.map": "/chris-sabre-art/static/js/main.c5b5246f.js.map"
+    "main.887543bd.js.map": "/chris-sabre-art/static/js/main.887543bd.js.map"
   },
   "entrypoints": [
     "static/css/main.8da96ce7.css",
-    "static/js/main.c5b5246f.js"
+    "static/js/main.887543bd.js"
   ]
 }
