@@ -1,40 +1,10 @@
 import styled from "styled-components";
-
 import { Link } from "react-router-dom";
 
 import Painting from "../../assets/img/painting.jpg";
-import Splatter from "../../assets/img/splatter.png";
 
 export const PageBody = styled.section`
   padding-top: 5em;
-`;
-
-export const NavBar = styled.nav`
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 1em 2em;
-  border-bottom: 2px #303030 solid;
-  border-left: 2px #303030 solid;
-  border-right: 2px #303030 solid;
-  position: fixed;
-  right: 2%;
-  top: 6%;
-  background: #ffffff;
-  border-radius: 2em;
-  z-index: 90;
-`;
-
-export const LinkFix = styled(Link)`
-  padding: 0 1em;
-  text-transform: uppercase;
-  font-size: small;
-  text-decoration: none;
-  color: #1f1f1f;
-  &:hover,
-  &.active {
-    text-decoration: underline;
-  }
 `;
 
 export const GalleryHeader = styled.section`
@@ -44,7 +14,7 @@ export const GalleryHeader = styled.section`
   width: 100%;
   min-height: 30em;
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -62,19 +32,44 @@ export const SiteTitle = styled.h2`
   padding: 0.5em 0;
 `;
 
-export const Description = styled.section`
-  padding: 2em 0;
+export const NavBar = styled.nav`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  padding: 1em 2em;
+  background: #ffffff;
 `;
 
-export const CategoryFlex = styled.section`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-`;
-
-export const GalleryIntro = styled.p`
-  width: 33em;
+export const LinkFix = styled(Link)`
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #f1f1f1;
+  background: #1f1f1f;
+  padding: 2em 1em 1em 1em;
+  border-radius: 2em;
   text-align: center;
-  padding-bottom: 3em;
+  font-weight: 800;
+  font-size: large;
+  border-left: 2px #f1f1f1 solid;
+  border-bottom: 4px #f1f1f1 solid;
+  border-right: 2px #f1f1f1 solid;
+  &:hover,
+  &.active {
+    color: #1f1f1f;
+    background: #f1f1f1;
+    border-left: 2px #1f1f1f solid;
+    border-bottom: 4px #1f1f1f solid;
+    border-right: 2px #1f1f1f solid;
+    opacity: 70%;
+  }
+`;
+
+export const PreviewImg = styled.img`
+  width: 30em;
+  height: 20em;
+  object-fit: cover;
+  border-left: 2px #f1f1f1 solid;
+  border-bottom: 4px #f1f1f1 solid;
+  border-right: 2px #f1f1f1 solid;
+  border-radius: 2em;
 `;
