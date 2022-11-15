@@ -7,6 +7,7 @@ export const Body = styled.section`
   width: 100%;
   height: fit-content;
   border-bottom: 2px #1f1f1f solid;
+  padding-bottom: 4em;
 `;
 
 export const TitleBanner = styled.section`
